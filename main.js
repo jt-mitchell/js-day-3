@@ -73,3 +73,11 @@ console.log(i);
 i++;
 
 }
+
+let milkShakeSpots = ['Five Guys', 'Shake Shake', 'White Castle', 'Cook Out']
+for (let i = 0; i<= milkShakeSpots.length; i++){
+   // console.log(milkShakeSpots[i]);
+    let spot = milkShakeSpots[i];
+   console.log(`I like this spot: ${spot}, a lot`);
+
+}
