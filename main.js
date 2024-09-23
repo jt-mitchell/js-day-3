@@ -40,3 +40,36 @@ carBrands = ['Audi','BMW','Chevorlet', 'Dodge', 'Ford','Honda','Isuzu','Jaguar',
 
 // JS Loops
 // Allows you to get tasks done repetitively and accurately.
+
+// for loop
+// let i = 0, starting point of the loop
+//i < 10, condition of which the loop functions
+// i++ incrementor
+
+for(let i = 0; i <=10; i++){
+console.log(i);
+//
+}
+// Infinite loop - note: can crash your machine.
+//for(let i = 0; i<= 10; i-- )
+  //  console.log(i);
+
+//return all even numbers from 0-200
+// this will check every second number
+for(let i = 0;i<=100; i+=2 ) {
+console.log (i)
+}
+
+//This solution uses modulus.
+// if (i % 2 == 0){
+//console.log(i);}
+
+
+// While 
+
+let i = 0;
+while(i < 10){
+console.log(i);
+i++;
+
+}
